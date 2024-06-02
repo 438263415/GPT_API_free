@@ -1,7 +1,7 @@
 from openai import OpenAI
 
 client = OpenAI(
-    # defaults to os.environ.get("OPENAI_API_KEY")
+    # defaults to os.environ.get("sk-7Nh55ANJPZEWFLXwJvhy3ZdwLceem4SVez8xiNKvxH1TymJm")
     api_key="YOUR API KEY",
     base_url="https://api.chatanywhere.tech/v1"
 )
